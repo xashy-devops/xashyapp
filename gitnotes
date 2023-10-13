@@ -10,3 +10,18 @@ git branch [branchname]
 checkout to a branch -->> git checkout branchname. 
 
 git checkout -b branchname --->> create a branch from the branch where you are , then it checks you out to the branch. 
+
+deleting a git branch: 
+
+make sure you are not in the branch .........
+git branch -d branchname 
+
+git branch -D branchnam 
+
+
+
+Working with remote remote repositories: 
+
+A remote repository contains a version of your project hosted on the internet. Examples of remote repositories include , github , gitlab , bitbucket, Code commit. 
+
+the reason why we have a remote repo is for collaboration 
