@@ -1,0 +1,12 @@
+branching helps developers to work on different features , experiments , or bug fixes in an isolation from the main development line. 
+A branch is represenrts an independent line of development in a git repository. 
+it allows multiple streams of work to proceed simultanouly.
+when a prject is initialised , a default branch is created called main or master. This branch could serve as the main development line. 
+
+creating a branch: 
+
+git branch [branchname]
+
+checkout to a branch -->> git checkout branchname. 
+
+git checkout -b branchname --->> create a branch from the branch where you are , then it checks you out to the branch. 
